@@ -14,7 +14,7 @@ body,
 
 .menubar {
     height: 50px;
-    background-color: fucshia;
+    background-color: #44B1A6;
 }
 
 .shareicon {
@@ -60,7 +60,7 @@ body,
 .menuname,
 .menustatus {
     height: 45%;
-    color: black;
+    color: white;
 }
 
 .menuname {
@@ -75,7 +75,7 @@ body,
 
 .chatbody {
     background-color: #ECE5DD;
-    background-image: url('../images/bg.png');
+    background-image: url('../images/bgbwt.png');
     background-position: center;
     background-repeat: repeat;
     height: -moz-calc(100% - 51px);

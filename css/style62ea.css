@@ -75,7 +75,7 @@ body,
 
 .chatbody {
     background-color: #ECE5DD;
-    background-image: url('../images/bg.png');
+    background-image: url('../images/bgbwt.png');
     background-position: center;
     background-repeat: repeat;
     height: -moz-calc(100% - 51px);
@@ -106,7 +106,7 @@ body,
     -webkit-filter: drop-shadow(rgb(163, 163, 163) -2px 2px 2px);
 }
 
-.laramessage:after,
+.smartmessage:after,
 .mymessage:after {
     content: '';
     position: absolute;
@@ -124,14 +124,14 @@ body,
     border-color: transparent grey;
 }
 
-.laramessage::after {
+.smartmessage::after {
     left: -8px;
     border-width: 8px 8px 8px 0;
     border-color: transparent grey;
 }
 
 .mymessage,
-.laramessage {
+.smartmessage {
     padding: 10px;
     padding: 4px;
     position: relative;
